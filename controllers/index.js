@@ -12,6 +12,7 @@ module.exports = {
                 var pair = item.split('=');
                 if(pair[0] == 'key'){
                     if(pair[1] == 'value'){
+                        ctx.response.body = JSON.stringify({time: '2020/12/20', tmpt: '30 ℃'});
                         // do something
                     }
                     else if(pair[1] == 'value2'){
