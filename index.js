@@ -44,7 +44,7 @@ app.use(templating('views', {
 app.use(controller());
 
 /* 监听端口 */
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port);
 
 /* 打印端口 */
